@@ -1,0 +1,27 @@
+{
+  "format": "OSTF",
+  "version": "1.2",
+  "timeBase": "quarter-note",
+  "duration": "16",
+  "song": {
+    "title": "Half-note BPM reference unit"
+  },
+  "meterMap": [
+    {
+      "at": "0",
+      "numerator": 2,
+      "denominator": 2
+    }
+  ],
+  "tempoMap": [
+    {
+      "at": "0",
+      "bpm": 60,
+      "beatUnit": "1/2",
+      "transition": "step"
+    }
+  ],
+  "keyMap": [],
+  "sections": [],
+  "chords": []
+}

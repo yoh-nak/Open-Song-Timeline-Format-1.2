@@ -1,0 +1,157 @@
+{
+  "format": "OSTF",
+  "version": "1.2",
+  "timeBase": "quarter-note",
+  "duration": "40",
+  "song": {
+    "title": "Complete song integration: meter tempo modulations chords"
+  },
+  "meterMap": [
+    {
+      "at": "0",
+      "numerator": 4,
+      "denominator": 4
+    },
+    {
+      "at": "16",
+      "numerator": 7,
+      "denominator": 8,
+      "beatGroups": [
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "at": "30",
+      "numerator": 5,
+      "denominator": 4
+    }
+  ],
+  "tempoMap": [
+    {
+      "at": "0",
+      "bpm": 108,
+      "beatUnit": "1/4",
+      "transition": "step"
+    },
+    {
+      "at": "16",
+      "bpm": 84,
+      "beatUnit": "1/4",
+      "transition": "linear-quarter-bpm"
+    },
+    {
+      "at": "30",
+      "bpm": 126,
+      "beatUnit": "1/4",
+      "transition": "step"
+    }
+  ],
+  "keyMap": [
+    {
+      "at": "0",
+      "tonic": "C",
+      "scale": "major"
+    },
+    {
+      "at": "16",
+      "tonic": "A",
+      "scale": "dorian"
+    },
+    {
+      "at": "30",
+      "tonic": "E",
+      "scale": "minor-pentatonic"
+    }
+  ],
+  "sections": [
+    {
+      "id": "intro",
+      "name": "Intro",
+      "start": "0",
+      "duration": "8"
+    },
+    {
+      "id": "verse",
+      "name": "Verse",
+      "start": "8",
+      "duration": "8"
+    },
+    {
+      "id": "bridge",
+      "name": "Bridge",
+      "start": "16",
+      "duration": "14"
+    },
+    {
+      "id": "outro",
+      "name": "Outro",
+      "start": "30",
+      "duration": "10"
+    }
+  ],
+  "chords": [
+    {
+      "kind": "chord",
+      "start": "0",
+      "duration": "4",
+      "root": "C",
+      "quality": "major-seventh",
+      "symbol": "Cmaj7"
+    },
+    {
+      "kind": "chord",
+      "start": "4",
+      "duration": "4",
+      "root": "F",
+      "quality": "major-seventh",
+      "symbol": "Fmaj7"
+    },
+    {
+      "kind": "chord",
+      "start": "8",
+      "duration": "4",
+      "root": "A",
+      "quality": "minor-seventh",
+      "symbol": "Am7"
+    },
+    {
+      "kind": "chord",
+      "start": "12",
+      "duration": "4",
+      "root": "G",
+      "quality": "dominant-seventh",
+      "symbol": "G7"
+    },
+    {
+      "kind": "chord",
+      "start": "16",
+      "duration": "7",
+      "root": "A",
+      "quality": "minor",
+      "symbol": "Am"
+    },
+    {
+      "kind": "chord",
+      "start": "23",
+      "duration": "7",
+      "root": "D",
+      "quality": "minor",
+      "symbol": "Dm"
+    },
+    {
+      "kind": "chord",
+      "start": "30",
+      "duration": "5",
+      "root": "E",
+      "quality": "minor",
+      "symbol": "Em"
+    },
+    {
+      "kind": "no-chord",
+      "start": "35",
+      "duration": "5"
+    }
+  ]
+}

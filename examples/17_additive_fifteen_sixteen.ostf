@@ -1,0 +1,33 @@
+{
+  "format": "OSTF",
+  "version": "1.2",
+  "timeBase": "quarter-note",
+  "duration": "15",
+  "song": {
+    "title": "Fifteen sixteen grouped 4+4+4+3"
+  },
+  "meterMap": [
+    {
+      "at": "0",
+      "numerator": 15,
+      "denominator": 16,
+      "beatGroups": [
+        4,
+        4,
+        4,
+        3
+      ]
+    }
+  ],
+  "tempoMap": [
+    {
+      "at": "0",
+      "bpm": 120,
+      "beatUnit": "1/4",
+      "transition": "step"
+    }
+  ],
+  "keyMap": [],
+  "sections": [],
+  "chords": []
+}

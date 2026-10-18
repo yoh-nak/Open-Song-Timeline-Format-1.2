@@ -1,0 +1,107 @@
+{
+  "format": "OSTF",
+  "version": "1.2",
+  "timeBase": "quarter-note",
+  "duration": "12",
+  "song": {
+    "title": "Harmonic intervals and altered tensions"
+  },
+  "meterMap": [
+    {
+      "at": "0",
+      "numerator": 4,
+      "denominator": 4
+    }
+  ],
+  "tempoMap": [
+    {
+      "at": "0",
+      "bpm": 120,
+      "beatUnit": "1/4",
+      "transition": "step"
+    }
+  ],
+  "keyMap": [],
+  "sections": [],
+  "chords": [
+    {
+      "kind": "chord",
+      "start": "0",
+      "duration": "2",
+      "root": "C#",
+      "bass": "E#",
+      "quality": "major-seventh",
+      "symbol": "C#maj7/E#",
+      "degrees": [
+        {
+          "degree": 9,
+          "alter": 0,
+          "operation": "add"
+        }
+      ]
+    },
+    {
+      "kind": "chord",
+      "start": "2",
+      "duration": "2",
+      "root": "G",
+      "quality": "dominant-seventh",
+      "symbol": "G7(b9,#9)",
+      "additionalTones": [
+        {
+          "degree": 9,
+          "alter": -1
+        },
+        {
+          "degree": 9,
+          "alter": 1
+        }
+      ]
+    },
+    {
+      "kind": "chord",
+      "start": "4",
+      "duration": "3/2",
+      "root": "Db",
+      "quality": "dominant-thirteenth",
+      "symbol": "Db13(no5)",
+      "degrees": [
+        {
+          "degree": 5,
+          "alter": 0,
+          "operation": "omit"
+        },
+        {
+          "degree": 9,
+          "alter": -1,
+          "operation": "alter"
+        }
+      ]
+    },
+    {
+      "kind": "no-chord",
+      "start": "11/2",
+      "duration": "1/2"
+    },
+    {
+      "kind": "chord",
+      "start": "7",
+      "duration": "3",
+      "root": "F",
+      "quality": "minor",
+      "symbol": "Fm(maj3)",
+      "degrees": [
+        {
+          "degree": 3,
+          "alter": 0,
+          "operation": "alter"
+        }
+      ]
+    }
+  ],
+  "extensions": {
+    "org.example.nonsemantic": {
+      "comment": "Unknown extensions cannot alter normative musical meaning"
+    }
+  }
+}

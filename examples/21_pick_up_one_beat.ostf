@@ -1,0 +1,49 @@
+{
+  "format": "OSTF",
+  "version": "1.2",
+  "timeBase": "quarter-note",
+  "duration": "9",
+  "song": {
+    "title": "One quarter note anacrusis",
+    "pickupDuration": "1"
+  },
+  "meterMap": [
+    {
+      "at": "0",
+      "numerator": 4,
+      "denominator": 4
+    }
+  ],
+  "tempoMap": [
+    {
+      "at": "0",
+      "bpm": 120,
+      "beatUnit": "1/4",
+      "transition": "step"
+    }
+  ],
+  "keyMap": [],
+  "sections": [],
+  "chords": [
+    {
+      "kind": "no-chord",
+      "start": "0",
+      "duration": "1"
+    },
+    {
+      "kind": "chord",
+      "start": "1",
+      "duration": "4",
+      "root": "C",
+      "quality": "major"
+    },
+    {
+      "kind": "chord",
+      "start": "5",
+      "duration": "4",
+      "root": "G",
+      "quality": "major",
+      "symbol": "G"
+    }
+  ]
+}

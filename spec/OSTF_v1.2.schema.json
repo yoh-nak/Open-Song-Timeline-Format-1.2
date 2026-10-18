@@ -1,0 +1,347 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ostf.example/spec/1.2/rc3/schema",
+  "title": "OSTF v1.2 Core — RC3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "format",
+    "version",
+    "timeBase",
+    "duration",
+    "meterMap",
+    "tempoMap",
+    "sections",
+    "chords"
+  ],
+  "properties": {
+    "format": {
+      "const": "OSTF"
+    },
+    "version": {
+      "const": "1.2"
+    },
+    "timeBase": {
+      "const": "quarter-note"
+    },
+    "duration": {
+      "$ref": "#/$defs/positiveRational"
+    },
+    "song": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "pickupDuration": {
+          "$ref": "#/$defs/positiveRational"
+        }
+      }
+    },
+    "meterMap": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "at",
+          "numerator",
+          "denominator"
+        ],
+        "properties": {
+          "at": {
+            "$ref": "#/$defs/nonnegativeRational"
+          },
+          "numerator": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "denominator": {
+            "enum": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32,
+              64,
+              128
+            ]
+          },
+          "beatGroups": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "integer",
+              "minimum": 1
+            }
+          }
+        }
+      }
+    },
+    "tempoMap": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "at",
+          "bpm",
+          "beatUnit",
+          "transition"
+        ],
+        "properties": {
+          "at": {
+            "$ref": "#/$defs/nonnegativeRational"
+          },
+          "bpm": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "beatUnit": {
+            "$ref": "#/$defs/positiveRational"
+          },
+          "transition": {
+            "enum": [
+              "step",
+              "linear-quarter-bpm"
+            ]
+          }
+        }
+      }
+    },
+    "keyMap": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "at",
+          "tonic",
+          "scale"
+        ],
+        "properties": {
+          "at": {
+            "$ref": "#/$defs/nonnegativeRational"
+          },
+          "tonic": {
+            "$ref": "#/$defs/pitch"
+          },
+          "scale": {
+            "enum": [
+              "major",
+              "natural-minor",
+              "dorian",
+              "mixolydian",
+              "phrygian",
+              "lydian",
+              "locrian",
+              "harmonic-minor",
+              "melodic-minor",
+              "major-pentatonic",
+              "minor-pentatonic",
+              "blues",
+              "whole-tone",
+              "octatonic-whole-half",
+              "octatonic-half-whole",
+              "chromatic",
+              "harmonic-major",
+              "lydian-dominant",
+              "altered",
+              "phrygian-dominant"
+            ]
+          }
+        }
+      }
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "start",
+          "duration"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string"
+          },
+          "start": {
+            "$ref": "#/$defs/nonnegativeRational"
+          },
+          "duration": {
+            "$ref": "#/$defs/positiveRational"
+          }
+        }
+      }
+    },
+    "chords": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "start",
+              "duration",
+              "kind",
+              "root",
+              "quality"
+            ],
+            "properties": {
+              "start": {
+                "$ref": "#/$defs/nonnegativeRational"
+              },
+              "duration": {
+                "$ref": "#/$defs/positiveRational"
+              },
+              "kind": {
+                "const": "chord"
+              },
+              "root": {
+                "$ref": "#/$defs/pitch"
+              },
+              "quality": {
+                "enum": [
+                  "major",
+                  "minor",
+                  "diminished",
+                  "augmented",
+                  "sus2",
+                  "sus4",
+                  "dominant-seventh",
+                  "major-seventh",
+                  "minor-seventh",
+                  "half-diminished-seventh",
+                  "diminished-seventh",
+                  "minor-major-seventh",
+                  "power",
+                  "dominant-ninth",
+                  "major-ninth",
+                  "minor-ninth",
+                  "dominant-eleventh",
+                  "minor-eleventh",
+                  "dominant-thirteenth",
+                  "major-sixth",
+                  "minor-sixth",
+                  "six-nine",
+                  "minor-six-nine",
+                  "augmented-seventh",
+                  "dominant-sus4"
+                ]
+              },
+              "bass": {
+                "$ref": "#/$defs/pitch"
+              },
+              "symbol": {
+                "type": "string"
+              },
+              "degrees": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "degree",
+                    "alter",
+                    "operation"
+                  ],
+                  "additionalProperties": false,
+                  "properties": {
+                    "degree": {
+                      "type": "integer",
+                      "minimum": 2,
+                      "maximum": 13
+                    },
+                    "alter": {
+                      "type": "integer",
+                      "minimum": -2,
+                      "maximum": 2
+                    },
+                    "operation": {
+                      "enum": [
+                        "add",
+                        "alter",
+                        "omit"
+                      ]
+                    }
+                  }
+                }
+              },
+              "additionalTones": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "degree",
+                    "alter"
+                  ],
+                  "properties": {
+                    "degree": {
+                      "type": "integer",
+                      "minimum": 2,
+                      "maximum": 13
+                    },
+                    "alter": {
+                      "type": "integer",
+                      "minimum": -2,
+                      "maximum": 2
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "start",
+              "duration",
+              "kind"
+            ],
+            "properties": {
+              "start": {
+                "$ref": "#/$defs/nonnegativeRational"
+              },
+              "duration": {
+                "$ref": "#/$defs/positiveRational"
+              },
+              "kind": {
+                "const": "no-chord"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "extensions": {
+      "type": "object"
+    }
+  },
+  "$defs": {
+    "nonnegativeRational": {
+      "type": "string",
+      "pattern": "^(0|[1-9][0-9]*)(/[1-9][0-9]*)?$"
+    },
+    "positiveRational": {
+      "type": "string",
+      "pattern": "^[1-9][0-9]*(/[1-9][0-9]*)?$"
+    },
+    "pitch": {
+      "type": "string",
+      "pattern": "^[A-G](#|b)?$"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "ostf": "1.1",
+  "document": {
+    "id": "sample",
+    "profiles": [
+      "core"
+    ]
+  },
+  "work": {
+    "title": "Legacy Preview Sample"
+  },
+  "arrangement": {
+    "id": "main",
+    "duration": "11"
+  },
+  "timeline": {
+    "tempo": [
+      {
+        "at": "0",
+        "bpm": 120,
+        "shape": "step"
+      }
+    ],
+    "meter": [
+      {
+        "at": "0",
+        "numerator": 4,
+        "denominator": 4
+      },
+      {
+        "at": "8",
+        "numerator": 3,
+        "denominator": 4
+      }
+    ]
+  },
+  "structure": {
+    "sections": [
+      {
+        "id": "intro",
+        "name": "Intro",
+        "at": "0",
+        "duration": "8"
+      },
+      {
+        "id": "verse",
+        "name": "Verse",
+        "at": "8",
+        "duration": "3"
+      }
+    ]
+  },
+  "harmony": {
+    "tracks": [
+      {
+        "id": "chord-track",
+        "events": [
+          {
+            "id": "a",
+            "at": "0",
+            "duration": "4",
+            "kind": "chord",
+            "symbol": "Cmaj7"
+          },
+          {
+            "id": "b",
+            "at": "4",
+            "duration": "4",
+            "kind": "chord",
+            "symbol": "Am7"
+          },
+          {
+            "id": "c",
+            "at": "8",
+            "duration": "3",
+            "kind": "none"
+          }
+        ]
+      }
+    ]
+  }
+}

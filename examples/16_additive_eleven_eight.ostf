@@ -1,0 +1,33 @@
+{
+  "format": "OSTF",
+  "version": "1.2",
+  "timeBase": "quarter-note",
+  "duration": "22",
+  "song": {
+    "title": "Eleven eight grouped 3+3+3+2"
+  },
+  "meterMap": [
+    {
+      "at": "0",
+      "numerator": 11,
+      "denominator": 8,
+      "beatGroups": [
+        3,
+        3,
+        3,
+        2
+      ]
+    }
+  ],
+  "tempoMap": [
+    {
+      "at": "0",
+      "bpm": 88,
+      "beatUnit": "1/4",
+      "transition": "step"
+    }
+  ],
+  "keyMap": [],
+  "sections": [],
+  "chords": []
+}

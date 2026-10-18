@@ -1,0 +1,48 @@
+{
+  "format": "OSTF",
+  "version": "1.2",
+  "timeBase": "quarter-note",
+  "duration": "12",
+  "song": {
+    "title": "Interrupted bar at non-boundary"
+  },
+  "meterMap": [
+    {
+      "at": "0",
+      "numerator": 4,
+      "denominator": 4
+    },
+    {
+      "at": "5",
+      "numerator": 3,
+      "denominator": 4
+    }
+  ],
+  "tempoMap": [
+    {
+      "at": "0",
+      "bpm": 120,
+      "beatUnit": "1/4",
+      "transition": "step"
+    }
+  ],
+  "keyMap": [],
+  "sections": [],
+  "chords": [
+    {
+      "kind": "chord",
+      "start": "0",
+      "duration": "5",
+      "root": "C",
+      "quality": "major"
+    },
+    {
+      "kind": "chord",
+      "start": "5",
+      "duration": "3",
+      "root": "A",
+      "quality": "minor",
+      "symbol": "Am"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "format": "OSTF",
+  "version": "1.2",
+  "timeBase": "quarter-note",
+  "duration": "16",
+  "song": {
+    "title": "Explicit no chord versus no harmony data"
+  },
+  "meterMap": [
+    {
+      "at": "0",
+      "numerator": 4,
+      "denominator": 4
+    }
+  ],
+  "tempoMap": [
+    {
+      "at": "0",
+      "bpm": 120,
+      "beatUnit": "1/4",
+      "transition": "step"
+    }
+  ],
+  "keyMap": [],
+  "sections": [],
+  "chords": [
+    {
+      "kind": "chord",
+      "start": "0",
+      "duration": "4",
+      "root": "C",
+      "quality": "major"
+    },
+    {
+      "kind": "no-chord",
+      "start": "4",
+      "duration": "4"
+    },
+    {
+      "kind": "chord",
+      "start": "12",
+      "duration": "4",
+      "root": "G",
+      "quality": "major",
+      "symbol": "G"
+    }
+  ]
+}

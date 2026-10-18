@@ -1,0 +1,46 @@
+{
+  "format": "OSTF",
+  "version": "1.2",
+  "timeBase": "quarter-note",
+  "duration": "15/2",
+  "song": {
+    "title": "Pickup and compound beats",
+    "pickupDuration": "1/2"
+  },
+  "meterMap": [
+    {
+      "at": "0",
+      "numerator": 6,
+      "denominator": 8,
+      "beatGroups": [
+        3,
+        3
+      ]
+    }
+  ],
+  "tempoMap": [
+    {
+      "at": "0",
+      "bpm": 120,
+      "beatUnit": "1/4",
+      "transition": "step"
+    }
+  ],
+  "keyMap": [],
+  "sections": [],
+  "chords": [
+    {
+      "kind": "no-chord",
+      "start": "0",
+      "duration": "1/2"
+    },
+    {
+      "kind": "chord",
+      "start": "1/2",
+      "duration": "3",
+      "root": "D",
+      "quality": "minor",
+      "symbol": "Dm"
+    }
+  ]
+}

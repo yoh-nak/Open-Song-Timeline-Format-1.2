@@ -1,0 +1,128 @@
+{
+  "format": "OSTF",
+  "version": "1.2",
+  "timeBase": "quarter-note",
+  "duration": "20",
+  "song": {
+    "title": "Complete built-in scale vocabulary"
+  },
+  "meterMap": [
+    {
+      "at": "0",
+      "numerator": 4,
+      "denominator": 4
+    }
+  ],
+  "tempoMap": [
+    {
+      "at": "0",
+      "bpm": 120,
+      "beatUnit": "1/4",
+      "transition": "step"
+    }
+  ],
+  "keyMap": [
+    {
+      "at": "0",
+      "tonic": "C",
+      "scale": "major"
+    },
+    {
+      "at": "1",
+      "tonic": "C",
+      "scale": "natural-minor"
+    },
+    {
+      "at": "2",
+      "tonic": "C",
+      "scale": "dorian"
+    },
+    {
+      "at": "3",
+      "tonic": "C",
+      "scale": "mixolydian"
+    },
+    {
+      "at": "4",
+      "tonic": "C",
+      "scale": "phrygian"
+    },
+    {
+      "at": "5",
+      "tonic": "C",
+      "scale": "lydian"
+    },
+    {
+      "at": "6",
+      "tonic": "C",
+      "scale": "locrian"
+    },
+    {
+      "at": "7",
+      "tonic": "C",
+      "scale": "harmonic-minor"
+    },
+    {
+      "at": "8",
+      "tonic": "C",
+      "scale": "melodic-minor"
+    },
+    {
+      "at": "9",
+      "tonic": "C",
+      "scale": "major-pentatonic"
+    },
+    {
+      "at": "10",
+      "tonic": "C",
+      "scale": "minor-pentatonic"
+    },
+    {
+      "at": "11",
+      "tonic": "C",
+      "scale": "blues"
+    },
+    {
+      "at": "12",
+      "tonic": "C",
+      "scale": "whole-tone"
+    },
+    {
+      "at": "13",
+      "tonic": "C",
+      "scale": "octatonic-whole-half"
+    },
+    {
+      "at": "14",
+      "tonic": "C",
+      "scale": "octatonic-half-whole"
+    },
+    {
+      "at": "15",
+      "tonic": "C",
+      "scale": "chromatic"
+    },
+    {
+      "at": "16",
+      "tonic": "C",
+      "scale": "harmonic-major"
+    },
+    {
+      "at": "17",
+      "tonic": "C",
+      "scale": "lydian-dominant"
+    },
+    {
+      "at": "18",
+      "tonic": "C",
+      "scale": "altered"
+    },
+    {
+      "at": "19",
+      "tonic": "C",
+      "scale": "phrygian-dominant"
+    }
+  ],
+  "sections": [],
+  "chords": []
+}

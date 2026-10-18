@@ -1,0 +1,52 @@
+{
+  "format": "OSTF",
+  "version": "1.2",
+  "timeBase": "quarter-note",
+  "duration": "12",
+  "song": {
+    "title": "Jazz ii V I with extensions"
+  },
+  "meterMap": [
+    {
+      "at": "0",
+      "numerator": 4,
+      "denominator": 4
+    }
+  ],
+  "tempoMap": [
+    {
+      "at": "0",
+      "bpm": 120,
+      "beatUnit": "1/4",
+      "transition": "step"
+    }
+  ],
+  "keyMap": [],
+  "sections": [],
+  "chords": [
+    {
+      "kind": "chord",
+      "start": "0",
+      "duration": "4",
+      "root": "D",
+      "quality": "minor-ninth",
+      "symbol": "Dm9"
+    },
+    {
+      "kind": "chord",
+      "start": "4",
+      "duration": "4",
+      "root": "G",
+      "quality": "dominant-thirteenth",
+      "symbol": "G13"
+    },
+    {
+      "kind": "chord",
+      "start": "8",
+      "duration": "4",
+      "root": "C",
+      "quality": "major-ninth",
+      "symbol": "Cmaj9"
+    }
+  ]
+}

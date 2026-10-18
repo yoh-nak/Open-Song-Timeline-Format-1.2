@@ -1,0 +1,56 @@
+{
+  "format": "OSTF",
+  "version": "1.2",
+  "timeBase": "quarter-note",
+  "duration": "12",
+  "song": {
+    "title": "One three four and five four sections"
+  },
+  "meterMap": [
+    {
+      "at": "0",
+      "numerator": 1,
+      "denominator": 4
+    },
+    {
+      "at": "2",
+      "numerator": 3,
+      "denominator": 4
+    },
+    {
+      "at": "8",
+      "numerator": 5,
+      "denominator": 4
+    }
+  ],
+  "tempoMap": [
+    {
+      "at": "0",
+      "bpm": 120,
+      "beatUnit": "1/4",
+      "transition": "step"
+    }
+  ],
+  "keyMap": [],
+  "sections": [
+    {
+      "id": "one",
+      "name": "One beat",
+      "start": "0",
+      "duration": "2"
+    },
+    {
+      "id": "three",
+      "name": "Waltz",
+      "start": "2",
+      "duration": "6"
+    },
+    {
+      "id": "five",
+      "name": "Five",
+      "start": "8",
+      "duration": "4"
+    }
+  ],
+  "chords": []
+}

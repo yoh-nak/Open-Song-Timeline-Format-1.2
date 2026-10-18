@@ -1,0 +1,52 @@
+{
+  "format": "OSTF",
+  "version": "1.2",
+  "timeBase": "quarter-note",
+  "duration": "16",
+  "song": {
+    "title": "世界 / Мировая музыка / أغنية / Canción"
+  },
+  "meterMap": [
+    {
+      "at": "0",
+      "numerator": 4,
+      "denominator": 4
+    }
+  ],
+  "tempoMap": [
+    {
+      "at": "0",
+      "bpm": 120,
+      "beatUnit": "1/4",
+      "transition": "step"
+    }
+  ],
+  "keyMap": [],
+  "sections": [
+    {
+      "id": "a",
+      "name": "イントロ / Introduction",
+      "start": "0",
+      "duration": "4"
+    },
+    {
+      "id": "b",
+      "name": "Couplet / Куплет",
+      "start": "4",
+      "duration": "4"
+    },
+    {
+      "id": "c",
+      "name": "副歌 / Chorus",
+      "start": "8",
+      "duration": "4"
+    },
+    {
+      "id": "d",
+      "name": "خاتمة / Outro",
+      "start": "12",
+      "duration": "4"
+    }
+  ],
+  "chords": []
+}

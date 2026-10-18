@@ -1,0 +1,235 @@
+{
+  "format": "OSTF",
+  "version": "1.2",
+  "timeBase": "quarter-note",
+  "duration": "25",
+  "song": {
+    "title": "Complete chord quality vocabulary"
+  },
+  "meterMap": [
+    {
+      "at": "0",
+      "numerator": 4,
+      "denominator": 4
+    }
+  ],
+  "tempoMap": [
+    {
+      "at": "0",
+      "bpm": 120,
+      "beatUnit": "1/4",
+      "transition": "step"
+    }
+  ],
+  "keyMap": [],
+  "sections": [
+    {
+      "id": "chord-registry",
+      "name": "All 25 chord qualities",
+      "start": "0",
+      "duration": "25"
+    }
+  ],
+  "chords": [
+    {
+      "kind": "chord",
+      "start": "0",
+      "duration": "1",
+      "root": "C",
+      "quality": "major",
+      "symbol": "C (major)"
+    },
+    {
+      "kind": "chord",
+      "start": "1",
+      "duration": "1",
+      "root": "C",
+      "quality": "minor",
+      "symbol": "C (minor)"
+    },
+    {
+      "kind": "chord",
+      "start": "2",
+      "duration": "1",
+      "root": "C",
+      "quality": "diminished",
+      "symbol": "C (diminished)"
+    },
+    {
+      "kind": "chord",
+      "start": "3",
+      "duration": "1",
+      "root": "C",
+      "quality": "augmented",
+      "symbol": "C (augmented)"
+    },
+    {
+      "kind": "chord",
+      "start": "4",
+      "duration": "1",
+      "root": "C",
+      "quality": "sus2",
+      "symbol": "C (sus2)"
+    },
+    {
+      "kind": "chord",
+      "start": "5",
+      "duration": "1",
+      "root": "C",
+      "quality": "sus4",
+      "symbol": "C (sus4)"
+    },
+    {
+      "kind": "chord",
+      "start": "6",
+      "duration": "1",
+      "root": "C",
+      "quality": "dominant-seventh",
+      "symbol": "C (dominant-seventh)"
+    },
+    {
+      "kind": "chord",
+      "start": "7",
+      "duration": "1",
+      "root": "C",
+      "quality": "major-seventh",
+      "symbol": "C (major-seventh)"
+    },
+    {
+      "kind": "chord",
+      "start": "8",
+      "duration": "1",
+      "root": "C",
+      "quality": "minor-seventh",
+      "symbol": "C (minor-seventh)"
+    },
+    {
+      "kind": "chord",
+      "start": "9",
+      "duration": "1",
+      "root": "C",
+      "quality": "half-diminished-seventh",
+      "symbol": "C (half-diminished-seventh)"
+    },
+    {
+      "kind": "chord",
+      "start": "10",
+      "duration": "1",
+      "root": "C",
+      "quality": "diminished-seventh",
+      "symbol": "C (diminished-seventh)"
+    },
+    {
+      "kind": "chord",
+      "start": "11",
+      "duration": "1",
+      "root": "C",
+      "quality": "minor-major-seventh",
+      "symbol": "C (minor-major-seventh)"
+    },
+    {
+      "kind": "chord",
+      "start": "12",
+      "duration": "1",
+      "root": "C",
+      "quality": "power",
+      "symbol": "C (power)"
+    },
+    {
+      "kind": "chord",
+      "start": "13",
+      "duration": "1",
+      "root": "C",
+      "quality": "dominant-ninth",
+      "symbol": "C (dominant-ninth)"
+    },
+    {
+      "kind": "chord",
+      "start": "14",
+      "duration": "1",
+      "root": "C",
+      "quality": "major-ninth",
+      "symbol": "C (major-ninth)"
+    },
+    {
+      "kind": "chord",
+      "start": "15",
+      "duration": "1",
+      "root": "C",
+      "quality": "minor-ninth",
+      "symbol": "C (minor-ninth)"
+    },
+    {
+      "kind": "chord",
+      "start": "16",
+      "duration": "1",
+      "root": "C",
+      "quality": "dominant-eleventh",
+      "symbol": "C (dominant-eleventh)"
+    },
+    {
+      "kind": "chord",
+      "start": "17",
+      "duration": "1",
+      "root": "C",
+      "quality": "minor-eleventh",
+      "symbol": "C (minor-eleventh)"
+    },
+    {
+      "kind": "chord",
+      "start": "18",
+      "duration": "1",
+      "root": "C",
+      "quality": "dominant-thirteenth",
+      "symbol": "C (dominant-thirteenth)"
+    },
+    {
+      "kind": "chord",
+      "start": "19",
+      "duration": "1",
+      "root": "C",
+      "quality": "major-sixth",
+      "symbol": "C (major-sixth)"
+    },
+    {
+      "kind": "chord",
+      "start": "20",
+      "duration": "1",
+      "root": "C",
+      "quality": "minor-sixth",
+      "symbol": "C (minor-sixth)"
+    },
+    {
+      "kind": "chord",
+      "start": "21",
+      "duration": "1",
+      "root": "C",
+      "quality": "six-nine",
+      "symbol": "C (six-nine)"
+    },
+    {
+      "kind": "chord",
+      "start": "22",
+      "duration": "1",
+      "root": "C",
+      "quality": "minor-six-nine",
+      "symbol": "C (minor-six-nine)"
+    },
+    {
+      "kind": "chord",
+      "start": "23",
+      "duration": "1",
+      "root": "C",
+      "quality": "augmented-seventh",
+      "symbol": "C (augmented-seventh)"
+    },
+    {
+      "kind": "chord",
+      "start": "24",
+      "duration": "1",
+      "root": "C",
+      "quality": "dominant-sus4",
+      "symbol": "C (dominant-sus4)"
+    }
+  ]
+}

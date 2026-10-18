@@ -1,0 +1,55 @@
+{
+  "format": "OSTF",
+  "version": "1.2",
+  "timeBase": "quarter-note",
+  "duration": "12",
+  "song": {
+    "title": "Chord slash bass as theoretical harmony"
+  },
+  "meterMap": [
+    {
+      "at": "0",
+      "numerator": 4,
+      "denominator": 4
+    }
+  ],
+  "tempoMap": [
+    {
+      "at": "0",
+      "bpm": 120,
+      "beatUnit": "1/4",
+      "transition": "step"
+    }
+  ],
+  "keyMap": [],
+  "sections": [],
+  "chords": [
+    {
+      "kind": "chord",
+      "start": "0",
+      "duration": "4",
+      "root": "C",
+      "quality": "major",
+      "symbol": "C/E",
+      "bass": "E"
+    },
+    {
+      "kind": "chord",
+      "start": "4",
+      "duration": "4",
+      "root": "G",
+      "quality": "major",
+      "symbol": "G/B",
+      "bass": "B"
+    },
+    {
+      "kind": "chord",
+      "start": "8",
+      "duration": "4",
+      "root": "F",
+      "quality": "major-seventh",
+      "symbol": "Fmaj7/A",
+      "bass": "A"
+    }
+  ]
+}

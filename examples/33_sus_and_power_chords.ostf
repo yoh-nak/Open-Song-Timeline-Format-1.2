@@ -1,0 +1,60 @@
+{
+  "format": "OSTF",
+  "version": "1.2",
+  "timeBase": "quarter-note",
+  "duration": "12",
+  "song": {
+    "title": "Suspended and power chord qualities"
+  },
+  "meterMap": [
+    {
+      "at": "0",
+      "numerator": 4,
+      "denominator": 4
+    }
+  ],
+  "tempoMap": [
+    {
+      "at": "0",
+      "bpm": 120,
+      "beatUnit": "1/4",
+      "transition": "step"
+    }
+  ],
+  "keyMap": [],
+  "sections": [],
+  "chords": [
+    {
+      "kind": "chord",
+      "start": "0",
+      "duration": "3",
+      "root": "D",
+      "quality": "sus2",
+      "symbol": "Dsus2"
+    },
+    {
+      "kind": "chord",
+      "start": "3",
+      "duration": "3",
+      "root": "G",
+      "quality": "sus4",
+      "symbol": "Gsus4"
+    },
+    {
+      "kind": "chord",
+      "start": "6",
+      "duration": "3",
+      "root": "A",
+      "quality": "power",
+      "symbol": "A5"
+    },
+    {
+      "kind": "chord",
+      "start": "9",
+      "duration": "3",
+      "root": "C",
+      "quality": "dominant-sus4",
+      "symbol": "C7sus4"
+    }
+  ]
+}

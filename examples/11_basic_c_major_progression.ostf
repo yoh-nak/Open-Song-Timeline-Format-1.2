@@ -1,0 +1,73 @@
+{
+  "format": "OSTF",
+  "version": "1.2",
+  "timeBase": "quarter-note",
+  "duration": "16",
+  "song": {
+    "title": "Four chords in C major"
+  },
+  "meterMap": [
+    {
+      "at": "0",
+      "numerator": 4,
+      "denominator": 4
+    }
+  ],
+  "tempoMap": [
+    {
+      "at": "0",
+      "bpm": 120,
+      "beatUnit": "1/4",
+      "transition": "step"
+    }
+  ],
+  "keyMap": [
+    {
+      "at": "0",
+      "tonic": "C",
+      "scale": "major"
+    }
+  ],
+  "sections": [
+    {
+      "id": "intro",
+      "name": "Intro",
+      "start": "0",
+      "duration": "16"
+    }
+  ],
+  "chords": [
+    {
+      "kind": "chord",
+      "start": "0",
+      "duration": "4",
+      "root": "C",
+      "quality": "major",
+      "symbol": "C"
+    },
+    {
+      "kind": "chord",
+      "start": "4",
+      "duration": "4",
+      "root": "G",
+      "quality": "major",
+      "symbol": "G"
+    },
+    {
+      "kind": "chord",
+      "start": "8",
+      "duration": "4",
+      "root": "A",
+      "quality": "minor",
+      "symbol": "Am"
+    },
+    {
+      "kind": "chord",
+      "start": "12",
+      "duration": "4",
+      "root": "F",
+      "quality": "major",
+      "symbol": "F"
+    }
+  ]
+}

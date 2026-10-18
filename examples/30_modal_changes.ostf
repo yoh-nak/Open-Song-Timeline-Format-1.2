@@ -1,0 +1,48 @@
+{
+  "format": "OSTF",
+  "version": "1.2",
+  "timeBase": "quarter-note",
+  "duration": "16",
+  "song": {
+    "title": "Modal color changes"
+  },
+  "meterMap": [
+    {
+      "at": "0",
+      "numerator": 4,
+      "denominator": 4
+    }
+  ],
+  "tempoMap": [
+    {
+      "at": "0",
+      "bpm": 120,
+      "beatUnit": "1/4",
+      "transition": "step"
+    }
+  ],
+  "keyMap": [
+    {
+      "at": "0",
+      "tonic": "D",
+      "scale": "dorian"
+    },
+    {
+      "at": "4",
+      "tonic": "G",
+      "scale": "mixolydian"
+    },
+    {
+      "at": "8",
+      "tonic": "F",
+      "scale": "lydian"
+    },
+    {
+      "at": "12",
+      "tonic": "A",
+      "scale": "phrygian"
+    }
+  ],
+  "sections": [],
+  "chords": []
+}

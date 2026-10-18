@@ -1,0 +1,60 @@
+{
+  "format": "OSTF",
+  "version": "1.2",
+  "timeBase": "quarter-note",
+  "duration": "8",
+  "song": {
+    "title": "Two chord changes per 4/4 bar"
+  },
+  "meterMap": [
+    {
+      "at": "0",
+      "numerator": 4,
+      "denominator": 4
+    }
+  ],
+  "tempoMap": [
+    {
+      "at": "0",
+      "bpm": 120,
+      "beatUnit": "1/4",
+      "transition": "step"
+    }
+  ],
+  "keyMap": [],
+  "sections": [],
+  "chords": [
+    {
+      "kind": "chord",
+      "start": "0",
+      "duration": "2",
+      "root": "D",
+      "quality": "minor-seventh",
+      "symbol": "Dm7"
+    },
+    {
+      "kind": "chord",
+      "start": "2",
+      "duration": "2",
+      "root": "G",
+      "quality": "dominant-seventh",
+      "symbol": "G7"
+    },
+    {
+      "kind": "chord",
+      "start": "4",
+      "duration": "2",
+      "root": "C",
+      "quality": "major-seventh",
+      "symbol": "Cmaj7"
+    },
+    {
+      "kind": "chord",
+      "start": "6",
+      "duration": "2",
+      "root": "A",
+      "quality": "minor-seventh",
+      "symbol": "Am7"
+    }
+  ]
+}

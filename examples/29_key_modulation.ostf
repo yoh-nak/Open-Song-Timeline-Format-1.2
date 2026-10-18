@@ -1,0 +1,71 @@
+{
+  "format": "OSTF",
+  "version": "1.2",
+  "timeBase": "quarter-note",
+  "duration": "16",
+  "song": {
+    "title": "Major key modulation from C to E"
+  },
+  "meterMap": [
+    {
+      "at": "0",
+      "numerator": 4,
+      "denominator": 4
+    }
+  ],
+  "tempoMap": [
+    {
+      "at": "0",
+      "bpm": 120,
+      "beatUnit": "1/4",
+      "transition": "step"
+    }
+  ],
+  "keyMap": [
+    {
+      "at": "0",
+      "tonic": "C",
+      "scale": "major"
+    },
+    {
+      "at": "8",
+      "tonic": "E",
+      "scale": "major"
+    }
+  ],
+  "sections": [],
+  "chords": [
+    {
+      "kind": "chord",
+      "start": "0",
+      "duration": "4",
+      "root": "C",
+      "quality": "major",
+      "symbol": "C"
+    },
+    {
+      "kind": "chord",
+      "start": "4",
+      "duration": "4",
+      "root": "G",
+      "quality": "dominant-seventh",
+      "symbol": "G7"
+    },
+    {
+      "kind": "chord",
+      "start": "8",
+      "duration": "4",
+      "root": "E",
+      "quality": "major",
+      "symbol": "E"
+    },
+    {
+      "kind": "chord",
+      "start": "12",
+      "duration": "4",
+      "root": "B",
+      "quality": "dominant-seventh",
+      "symbol": "B7"
+    }
+  ]
+}

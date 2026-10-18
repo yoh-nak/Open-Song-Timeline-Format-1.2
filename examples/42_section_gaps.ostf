@@ -1,0 +1,46 @@
+{
+  "format": "OSTF",
+  "version": "1.2",
+  "timeBase": "quarter-note",
+  "duration": "20",
+  "song": {
+    "title": "Sections with intentional uncovered time"
+  },
+  "meterMap": [
+    {
+      "at": "0",
+      "numerator": 4,
+      "denominator": 4
+    }
+  ],
+  "tempoMap": [
+    {
+      "at": "0",
+      "bpm": 120,
+      "beatUnit": "1/4",
+      "transition": "step"
+    }
+  ],
+  "keyMap": [],
+  "sections": [
+    {
+      "id": "intro",
+      "name": "Intro",
+      "start": "0",
+      "duration": "4"
+    },
+    {
+      "id": "chorus",
+      "name": "Chorus",
+      "start": "8",
+      "duration": "8"
+    },
+    {
+      "id": "outro",
+      "name": "Outro",
+      "start": "18",
+      "duration": "2"
+    }
+  ],
+  "chords": []
+}

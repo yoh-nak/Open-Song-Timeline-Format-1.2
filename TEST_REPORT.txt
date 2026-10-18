@@ -1,0 +1,4 @@
+Expanded example validation: PASS (49 .ostf files)
+Automated regression suite: PASS
+Total files before regenerated manifest: 92
+External DAW round-trip: NOT TESTED

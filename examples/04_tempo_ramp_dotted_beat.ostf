@@ -1,0 +1,48 @@
+{
+  "format": "OSTF",
+  "version": "1.2",
+  "timeBase": "quarter-note",
+  "duration": "20",
+  "song": {
+    "title": "Tempo ramp and compound beat unit"
+  },
+  "meterMap": [
+    {
+      "at": "0",
+      "numerator": 4,
+      "denominator": 4
+    },
+    {
+      "at": "12",
+      "numerator": 6,
+      "denominator": 8,
+      "beatGroups": [
+        3,
+        3
+      ]
+    }
+  ],
+  "tempoMap": [
+    {
+      "at": "0",
+      "bpm": 90,
+      "beatUnit": "1/4",
+      "transition": "linear-quarter-bpm"
+    },
+    {
+      "at": "8",
+      "bpm": 130,
+      "beatUnit": "1/4",
+      "transition": "step"
+    },
+    {
+      "at": "12",
+      "bpm": 80,
+      "beatUnit": "3/8",
+      "transition": "step"
+    }
+  ],
+  "keyMap": [],
+  "sections": [],
+  "chords": []
+}

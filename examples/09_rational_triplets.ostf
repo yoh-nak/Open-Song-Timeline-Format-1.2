@@ -1,0 +1,70 @@
+{
+  "format": "OSTF",
+  "version": "1.2",
+  "timeBase": "quarter-note",
+  "duration": "4",
+  "song": {
+    "title": "Exact rational triplet boundaries"
+  },
+  "meterMap": [
+    {
+      "at": "0",
+      "numerator": 4,
+      "denominator": 4
+    }
+  ],
+  "tempoMap": [
+    {
+      "at": "0",
+      "bpm": 120,
+      "beatUnit": "1/4",
+      "transition": "step"
+    }
+  ],
+  "keyMap": [],
+  "sections": [],
+  "chords": [
+    {
+      "kind": "chord",
+      "start": "0",
+      "duration": "1/3",
+      "root": "C",
+      "quality": "major"
+    },
+    {
+      "kind": "chord",
+      "start": "1/3",
+      "duration": "1/3",
+      "root": "D",
+      "quality": "major"
+    },
+    {
+      "kind": "chord",
+      "start": "2/3",
+      "duration": "1/3",
+      "root": "E",
+      "quality": "major"
+    },
+    {
+      "kind": "chord",
+      "start": "1",
+      "duration": "1/3",
+      "root": "F",
+      "quality": "major"
+    },
+    {
+      "kind": "chord",
+      "start": "4/3",
+      "duration": "1/3",
+      "root": "G",
+      "quality": "major"
+    },
+    {
+      "kind": "chord",
+      "start": "5/3",
+      "duration": "1/3",
+      "root": "A",
+      "quality": "major"
+    }
+  ]
+}

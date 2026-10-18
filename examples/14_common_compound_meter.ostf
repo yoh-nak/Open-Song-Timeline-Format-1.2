@@ -1,0 +1,64 @@
+{
+  "format": "OSTF",
+  "version": "1.2",
+  "timeBase": "quarter-note",
+  "duration": "12",
+  "song": {
+    "title": "Six eight compound feel"
+  },
+  "meterMap": [
+    {
+      "at": "0",
+      "numerator": 6,
+      "denominator": 8,
+      "beatGroups": [
+        3,
+        3
+      ]
+    }
+  ],
+  "tempoMap": [
+    {
+      "at": "0",
+      "bpm": 72,
+      "beatUnit": "3/8",
+      "transition": "step"
+    }
+  ],
+  "keyMap": [],
+  "sections": [],
+  "chords": [
+    {
+      "kind": "chord",
+      "start": "0",
+      "duration": "3",
+      "root": "D",
+      "quality": "minor",
+      "symbol": "Dm"
+    },
+    {
+      "kind": "chord",
+      "start": "3",
+      "duration": "3",
+      "root": "G",
+      "quality": "minor",
+      "symbol": "Gm"
+    },
+    {
+      "kind": "chord",
+      "start": "6",
+      "duration": "3",
+      "root": "A",
+      "quality": "major",
+      "symbol": "A"
+    },
+    {
+      "kind": "chord",
+      "start": "9",
+      "duration": "3",
+      "root": "D",
+      "quality": "minor",
+      "symbol": "Dm"
+    }
+  ]
+}

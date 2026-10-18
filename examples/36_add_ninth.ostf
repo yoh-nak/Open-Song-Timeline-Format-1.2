@@ -1,0 +1,43 @@
+{
+  "format": "OSTF",
+  "version": "1.2",
+  "timeBase": "quarter-note",
+  "duration": "8",
+  "song": {
+    "title": "Added ninth on a triad"
+  },
+  "meterMap": [
+    {
+      "at": "0",
+      "numerator": 4,
+      "denominator": 4
+    }
+  ],
+  "tempoMap": [
+    {
+      "at": "0",
+      "bpm": 120,
+      "beatUnit": "1/4",
+      "transition": "step"
+    }
+  ],
+  "keyMap": [],
+  "sections": [],
+  "chords": [
+    {
+      "kind": "chord",
+      "start": "0",
+      "duration": "4",
+      "root": "C",
+      "quality": "major",
+      "symbol": "Cadd9",
+      "degrees": [
+        {
+          "degree": 9,
+          "alter": 0,
+          "operation": "add"
+        }
+      ]
+    }
+  ]
+}

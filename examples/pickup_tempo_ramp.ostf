@@ -1,0 +1,88 @@
+{
+  "format": "OSTF",
+  "version": "1.2",
+  "timeBase": "quarter-note",
+  "duration": "15",
+  "song": {
+    "title": "Pickup and Ramped 7/8",
+    "pickupDuration": "1"
+  },
+  "meterMap": [
+    {
+      "at": "0",
+      "numerator": 7,
+      "denominator": 8,
+      "beatGroups": [
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "at": "8",
+      "numerator": 6,
+      "denominator": 8,
+      "beatGroups": [
+        3,
+        3
+      ]
+    }
+  ],
+  "tempoMap": [
+    {
+      "at": "0",
+      "bpm": 100,
+      "beatUnit": "1/4",
+      "transition": "linear-quarter-bpm"
+    },
+    {
+      "at": "8",
+      "bpm": 80,
+      "beatUnit": "3/8",
+      "transition": "step"
+    }
+  ],
+  "keyMap": [
+    {
+      "at": "0",
+      "tonic": "C",
+      "scale": "major-pentatonic"
+    }
+  ],
+  "sections": [
+    {
+      "id": "a",
+      "name": "Theme",
+      "start": "0",
+      "duration": "8"
+    },
+    {
+      "id": "b",
+      "name": "Bridge",
+      "start": "8",
+      "duration": "7"
+    }
+  ],
+  "chords": [
+    {
+      "kind": "chord",
+      "start": "0",
+      "duration": "1",
+      "root": "C",
+      "quality": "major"
+    },
+    {
+      "kind": "chord",
+      "start": "1",
+      "duration": "7",
+      "root": "G",
+      "quality": "dominant-ninth",
+      "symbol": "G9"
+    },
+    {
+      "kind": "no-chord",
+      "start": "8",
+      "duration": "7"
+    }
+  ]
+}

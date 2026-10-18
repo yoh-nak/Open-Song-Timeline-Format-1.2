@@ -1,0 +1,39 @@
+{
+  "format": "OSTF",
+  "version": "1.2",
+  "timeBase": "quarter-note",
+  "duration": "24",
+  "song": {
+    "title": "Multiple ramps and discrete tempo change"
+  },
+  "meterMap": [
+    {
+      "at": "0",
+      "numerator": 4,
+      "denominator": 4
+    }
+  ],
+  "tempoMap": [
+    {
+      "at": "0",
+      "bpm": 90,
+      "beatUnit": "1/4",
+      "transition": "linear-quarter-bpm"
+    },
+    {
+      "at": "8",
+      "bpm": 120,
+      "beatUnit": "1/4",
+      "transition": "linear-quarter-bpm"
+    },
+    {
+      "at": "16",
+      "bpm": 75,
+      "beatUnit": "1/4",
+      "transition": "step"
+    }
+  ],
+  "keyMap": [],
+  "sections": [],
+  "chords": []
+}

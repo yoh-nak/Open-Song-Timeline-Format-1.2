@@ -1,0 +1,33 @@
+{
+  "format": "OSTF",
+  "version": "1.2",
+  "timeBase": "quarter-note",
+  "duration": "9/2",
+  "song": {
+    "title": "Thirty-second denominator and 9/32 grouping"
+  },
+  "meterMap": [
+    {
+      "at": "0",
+      "numerator": 9,
+      "denominator": 32,
+      "beatGroups": [
+        2,
+        2,
+        2,
+        3
+      ]
+    }
+  ],
+  "tempoMap": [
+    {
+      "at": "0",
+      "bpm": 120,
+      "beatUnit": "1/4",
+      "transition": "step"
+    }
+  ],
+  "keyMap": [],
+  "sections": [],
+  "chords": []
+}

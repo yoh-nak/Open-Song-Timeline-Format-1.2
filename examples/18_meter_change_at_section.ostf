@@ -1,0 +1,61 @@
+{
+  "format": "OSTF",
+  "version": "1.2",
+  "timeBase": "quarter-note",
+  "duration": "28",
+  "song": {
+    "title": "Meter changes aligned to sections"
+  },
+  "meterMap": [
+    {
+      "at": "0",
+      "numerator": 4,
+      "denominator": 4
+    },
+    {
+      "at": "16",
+      "numerator": 3,
+      "denominator": 4
+    }
+  ],
+  "tempoMap": [
+    {
+      "at": "0",
+      "bpm": 120,
+      "beatUnit": "1/4",
+      "transition": "step"
+    }
+  ],
+  "keyMap": [],
+  "sections": [
+    {
+      "id": "verse",
+      "name": "Verse",
+      "start": "0",
+      "duration": "16"
+    },
+    {
+      "id": "bridge",
+      "name": "Bridge",
+      "start": "16",
+      "duration": "12"
+    }
+  ],
+  "chords": [
+    {
+      "kind": "chord",
+      "start": "0",
+      "duration": "8",
+      "root": "C",
+      "quality": "major"
+    },
+    {
+      "kind": "chord",
+      "start": "16",
+      "duration": "6",
+      "root": "F",
+      "quality": "major",
+      "symbol": "F"
+    }
+  ]
+}

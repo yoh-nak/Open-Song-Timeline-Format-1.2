@@ -1,0 +1,152 @@
+{
+  "format": "OSTF",
+  "version": "1.2",
+  "timeBase": "quarter-note",
+  "duration": "32",
+  "song": {
+    "title": "International music timeline / 世界の音楽時間軸 / Línea de tiempo musical"
+  },
+  "meterMap": [
+    {
+      "at": "0",
+      "numerator": 4,
+      "denominator": 4
+    }
+  ],
+  "tempoMap": [
+    {
+      "at": "0",
+      "bpm": 120,
+      "beatUnit": "1/4",
+      "transition": "step"
+    }
+  ],
+  "keyMap": [
+    {
+      "at": "0",
+      "tonic": "C",
+      "scale": "major"
+    },
+    {
+      "at": "16",
+      "tonic": "F#",
+      "scale": "dorian"
+    }
+  ],
+  "sections": [
+    {
+      "id": "part1",
+      "name": "Intro",
+      "start": "0",
+      "duration": "4"
+    },
+    {
+      "id": "part2",
+      "name": "Verse / Couplet",
+      "start": "4",
+      "duration": "4"
+    },
+    {
+      "id": "part3",
+      "name": "Chorus / Refrain",
+      "start": "8",
+      "duration": "4"
+    },
+    {
+      "id": "part4",
+      "name": "Bridge / Puente",
+      "start": "12",
+      "duration": "4"
+    },
+    {
+      "id": "part5",
+      "name": "間奏 / Interlude",
+      "start": "16",
+      "duration": "4"
+    },
+    {
+      "id": "part6",
+      "name": "브리지 / Bridge",
+      "start": "20",
+      "duration": "4"
+    },
+    {
+      "id": "part7",
+      "name": "مقطع / Section",
+      "start": "24",
+      "duration": "4"
+    },
+    {
+      "id": "part8",
+      "name": "Outro / Final",
+      "start": "28",
+      "duration": "4"
+    }
+  ],
+  "chords": [
+    {
+      "kind": "chord",
+      "start": "0",
+      "duration": "4",
+      "root": "C",
+      "quality": "major-seventh",
+      "symbol": "Cmaj7"
+    },
+    {
+      "kind": "chord",
+      "start": "4",
+      "duration": "4",
+      "root": "A",
+      "quality": "minor-seventh",
+      "symbol": "Am7"
+    },
+    {
+      "kind": "chord",
+      "start": "8",
+      "duration": "4",
+      "root": "D",
+      "quality": "minor-seventh",
+      "symbol": "Dm7"
+    },
+    {
+      "kind": "chord",
+      "start": "12",
+      "duration": "4",
+      "root": "G",
+      "quality": "dominant-seventh",
+      "symbol": "G7"
+    },
+    {
+      "kind": "chord",
+      "start": "16",
+      "duration": "4",
+      "root": "F#",
+      "quality": "minor",
+      "symbol": "F#m"
+    },
+    {
+      "kind": "chord",
+      "start": "20",
+      "duration": "4",
+      "root": "B",
+      "quality": "minor",
+      "symbol": "Bm"
+    },
+    {
+      "kind": "chord",
+      "start": "24",
+      "duration": "4",
+      "root": "E",
+      "quality": "dominant-seventh",
+      "symbol": "E7"
+    },
+    {
+      "kind": "chord",
+      "start": "28",
+      "duration": "4",
+      "root": "A",
+      "quality": "major",
+      "symbol": "A"
+    }
+  ]
+}
